@@ -1,0 +1,66 @@
+body{
+	font-size: 16px;
+	text-align: center;
+}
+.header,
+.footer{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ccc;
+}
+
+.main{
+	width: 100%;
+	overflow: hidden;
+	min-height: 800px;	
+	min-height: calc(100vh - 80px)
+}
+
+.main .left-bar{
+	float: left;	
+	width: 300px;
+	background-color: #2A3FAA;
+	color: #fff;
+	padding-bottom:2000px;
+    margin-bottom:-2000px;
+}
+
+.main .container{
+	margin-left: 300px;
+	border:1px solid #ccc;
+    padding-bottom:2000px;
+    margin-bottom:-2000px;
+}
+
+
+.main .container .a-wrap,
+.main .container .b-wrap,
+.main .container .c-wrap{
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #ccc
+}
+
+.b-wrap{
+	margin-top: 10px;
+}
+
+.c-wrap{
+	margin-top: 10px;
+	padding: 15px;
+}
+
+.btn{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-submit{
+	background-color: blue;
+	color: #fff;
+}
